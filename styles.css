@@ -1,0 +1,54 @@
+.form-internal {
+	padding-left: 173px;
+	padding-right: 173px;
+	position: relative;
+	width: 100%;
+}
+
+.google-image {
+  margin: auto;
+  width: 278px;	
+  height: 233px;
+  margin-top: 89px;
+}
+
+.input {
+  margin: auto;
+  width: 833px;
+}
+
+.searchbox {
+  box-shadow:  0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  border: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: rgba(0,0,0,0.08);
+  height: 44px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  margin-top: -3px;
+  margin: auto;
+  width: 632px;
+  -webkit-box-sizing: border-box;
+}
+
+.searchbox:hover {
+  
+}
+
+.searchform {
+  position: absolute;
+  top: 311px;
+}
+
+.toolbar {
+  position: absolute;
+  top: -295px;
+  right: 0;
+  width: 100%;
+  background-color: green;
+}
+
+div {
+	display: block;
+}
