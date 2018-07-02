@@ -5,18 +5,29 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  <div class="toolbar"></div>
-  <div class="google-image">
-  	<a><img src="googlelogo.png"></a>
+  <div class="navbar">
+  	<ul>
+  		<li><a href="">About</a></li>
+  		<li><a href="">Store</a></li>
+  		<li style="float:right"><a href="">Sign in</a></li>
+  		<li style="float:right"><a href="">Apps</a></li>
+  		<li style="float:right"><a href="">Images</a></li>
+  		<li style="float:right"><a href="">Gmail</a></li>
+  	</ul>
+  </div>
+  <div class="google-image center">
+  	<a><img alt="Google" src="googlelogo.png" height="92" style="padding-top: 109px" width="272"></a>
   </div>
   <div class="searchform">
     <form class="input">
       <div class="form-internal">
       	<div class="searchbox">
-  	      <input type="text" name="search-box"><br>
+  	      <input type="text" name="search-box" id="search-box"><br>
   	    </div>
-  	    <input type="submit" value="Google Search">
-  	    <input type="submit" value="I'm Feeling Lucky"><br>
+  	    <div class="buttons center">
+  	      <input class="google-search" type="submit" value="Google Search">
+  	      <input class="google-search" type="submit" value="I'm Feeling Lucky"><br>
+  	    </div>
   	  </div>
     </form>
   </div>
