@@ -3,6 +3,16 @@
 	padding: 0;
 }
 
+html {
+	overflow: hidden;
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	overflow: auto;
+}
+
 .buttons {
   height: 58px;
   padding-top: 18px;
@@ -18,8 +28,7 @@
 .form-internal {
   position: relative;
   width: 487px;
-  padding-left: 173px;
-  padding-right: 173px;
+  padding: 8px 173px 0 173px;
 }
 
 .google-image {
@@ -58,10 +67,10 @@
 
 .searchbox {
   box-shadow:  0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
-  border: solid;
-  border-width: 1px;
+  /*border: solid;*/
+  /*border-width: 1px;*/
   border-radius: 2px;
-  border-color: rgba(0,0,0,0.08);
+  /*border-color: rgba(0,0,0,0.08);*/
   height: 44px;
   margin: auto;
   width: 484px;
@@ -98,13 +107,41 @@ ul {
 
 li a {
   color: #000;
-  display: block;
+  display: inline-block;
   font: 13px arial, sans-serif;
   padding: 14px 8px 14px 8px;
-  margin: 7px 0 0 10px;
+  margin-top: 10px;
   opacity: 0.75;
   text-align: center;
   text-decoration: none;
+}
+
+#about {
+  margin-left: 10px;
+  padding-left: 15px;
+} 
+
+#app {
+  margin-top: 4px;
+}
+
+#app:hover {
+  opacity: 1;
+}
+
+#sign-in {
+  background-color: #4285f4;
+  border-radius: 2px;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  margin: 15px 30px 0 9px;
+  padding: 7px 13px 7px 13px;
+  opacity: 1;
+}
+
+#store {
+  margin-left: 3px;
 }
 
 #search-box {
@@ -116,6 +153,52 @@ li a {
   outline: none;
   padding: 5px 9px 0 16px;
   position: absolute;
-  width: 100%;
+  width: 486px;
   z-index: 6;
 }
+
+/* Header and footer styles */
+.footer {
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	bottom: 0;
+	position: absolute;
+	height: 40px;
+	line-height: 40px;
+	width: 100%;
+	font-size: 10pt;
+	min-width: 980px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#advertising {
+	display: inline-block;
+	padding: 0 0 0 27px;
+	margin: 0;
+
+}
+
+#business {
+	display: inline-block;
+	padding: 0 0 0 27px;
+	margin: 0;
+}
+
+#settings {
+	margin: 0 30px 0 0;
+	padding: 0 0 0 27px;
+}
+
+#terms {
+	display: inline-block;
+	padding: 0 0 0 27px;
+	margin: 0;
+}
+
+#privacy {
+	display: inline-block;
+	padding: 0 0 0 27px;
+	margin: 0;
+}
+
